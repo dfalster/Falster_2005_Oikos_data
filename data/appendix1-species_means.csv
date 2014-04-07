@@ -1,0 +1,20 @@
+species,spp,group,family,hmax,height_age_a,height_age_b,height_age_r2,longevity,persistence,RST_h,RST_c,RST_d,LMA,Nmass,LS,STD,D1m,SM
+Acacia longifolia,acasop,reseeder,Mimosaceae,4,0.077,1.44,0.95,40,29.4,1.07,5.74,-0.73,0.128,2.32,1761,0.376,0.472,14
+Acacia suaveolens,acasua,reseeder,Mimosaceae,1.64,0.16,2.98,0.51,15,12.6,0.37,4.01,3.5,0.142,2.1,339,0.51,0.361,28.5
+Acacia terminalis,acater,reseeder,Mimosaceae,2.32,0.141,2.71,0.87,20,17.2,1.26,9.49,-2.38,0.133,1.87,5289,0.609,0.485,36
+Acacia ulicifolia,acauli,reseeder,Mimosaceae,2.19,0.209,1.64,0.8,25,20.7,0.46,3.49,2.13,0.092,1.65,13,0.681,0.397,13.3
+Actinotus helianthi,acthel,reseeder,Asteraceae.,1.49,0.033,7.05,0.88,5,3.2,1.03,107.3,-3.69,0.082,1.67,586,0.436,0.458,
+Banksia serrata,banser,reseeder,Proteaceae.,13.13,0.001,2.17,0.89,100,68.7,5.52,41.4,-70.8,0.242,,3343,0.433,0.716,62
+Dillwynia retorta,dilret,reseeder,Fabaceae,1.78,0.191,1.72,0.9,20,15.8,0.67,6.35,2.18,0.105,2.25,7,0.921,0.387,5.5
+Gompholobium latifolium,gomlat,reseeder,Fabaceae,1.99,0.147,2.83,0.95,13,10.4,1.29,8.97,-2.52,0.089,2.03,470,0.611,0.446,
+Monotoca elliptica,monell,reseeder,Epacridaceae,5.88,0.002,2.52,0.89,100,83.5,2.41,108.5,-95.5,0.127,0.99,44,0.549,0.855,
+Pimelea linifolia,pimlin,reseeder,Thymeliaceae,1.68,0.27,1.98,0.82,12.5,9.6,0.68,4.15,1.09,0.056,2.1,42,0.586,0.324,2.8
+Platysace ericoides,plaspp,reseeder,Apiaceae,0.22,0.301,2.96,0.05,1,,,,,0.076,1.04,6,1.041,,
+Pomax umbellate,pomumb,reseeder,Rubiaceae,0.19,1.38,2.7,0.08,5,,,,,0.045,1.7,71,,,1.1
+Aotus ericoides,aoteri,resprouter,Fabaceae,1.9,0.46,1.17,0.75,60,56.1,0.48,2.37,0.85,0.1,2.39,26,0.556,0.427,3.6
+Correa reflexa,corref,resprouter,Proteaceae,1.32,0.387,0.687,0.68,,,0.57,3.86,1.61,0.099,0.92,466,0.641,0.688,10.3
+Epacris pulchella,epapul,resprouter,Epacridaceae,1.53,0.429,1.48,0.31,,,,,,0.107,,9,,0.387,0.1
+Gonocarpus teucrioides,gonteu,resprouter,Haloragaceae,0.61,0.828,1.58,0.44,,,,,,0.063,1.31,54,,,1.1
+Leucopogon lanceolatus,leulan,resprouter,Epacridaceae,2.51,0.346,0.834,0.79,25,15.3,1.06,3.55,-0.78,0.064,1.02,24,0.615,0.507,3.2
+Ricinocarpus pinnifolius,ricpin,resprouter,Euphorbiaceae,0.97,0.983,0.856,0.38,,,0.29,4.23,4.69,0.142,0.98,54,0.514,0.765,48.2
+Tetratheca ericifolia,tetthy,resprouter,Tremandraceae,0.68,0.856,0.539,0.4,,,,,,0.087,1.23,18,0.153,,2
