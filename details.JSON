@@ -1,0 +1,82 @@
+{
+  "creator":{
+    "Daniel":{
+      "name": "Daniel Falster",
+      "email": "daniel.falster@mq.edu.au",
+      "phone": "+61-2-9850-9258",
+      "organization": "Macquarie University",
+      "address": "Biological Sciences",
+      "city": "Macquarie University",
+      "state": "NSW",
+      "postalCode": "2109",
+      "country": "Australia"
+      }
+  },
+  "associatedParty":{
+    "Mark":{
+      "name": "Mark Westoby",
+      "email": "mark.westoby@mq.edu.au",
+      "phone": "+61-2-9850-8196",
+      "organization": "Macquarie University",
+      "address": "Biological Sciences",
+      "city": "Macquarie University",
+      "state": "NSW",
+      "postalCode": "2109",
+      "country": "Australia"
+      }
+  },
+  "intro_statement": "NOTE:\n\n- This file was generated using the script found [here](https://github.com/dfalster/Falster_2005_Oikos_data/blob/master/readme.Rmd).\n- These data were made available 8 years after publication of the article. While I have endeavoured to check the details of the archive, there may be some small differences to the published paper due to the time delay between publishing and data release.",
+  "publication":{
+    "date": "2005",
+    "title": "Tradeoffs between Height Growth Rate, Stem Persistence and Maximum Height among Plant Species in a Post-Fire Succession",
+    "citation": "Falster, D. S., and M. Westoby. 'Tradeoffs between Height Growth Rate, Stem Persistence and Maximum Height among Plant Species in a Post-Fire Succession.' Oikos 111, no. 1 (2005): 57–66.",
+    "doi": "10.1111/j.0030-1299.2005.13383.x",
+    "keywords":  ["plant", "traits", "height", "succession"],
+    "abstract": "One way species of low maximum height can accrue sufficient light income to persist in vegetation is via rapid height growth immediately following disturbance. By surveying patches of known time since fire, we reconstructed height-growth trajectories for 19 post-fire recruiting species from fire-prone vegetation in south-eastern Australia. Cross-species patterns of height growth were compared to several plant traits thought to influence height strategy, including leaf mass per area, stem tissue density, stem diameter and capacity to resprout. Shorter species were found to temporarily outpace taller species, both as resprouters and within reseeders. Among reseeders, a single axis of variation summarised patterns of height-growth, time to onset of reproduction and longevity. This axis was tightly correlated with maximum height, leaf mass per area and stem diameter at a given height. These results illustrate how a range of height strategies can coexist in fire-prone vegetation, via the time-process initiated by disturbance."
+  },
+  "rights": "This dataset is released to the public under the Creative Commons CC0 license. As such, it may be freely used and redistributed. When using the dataset, we ask that you cite the original article, recognising the hard work that went into collecting the data and the author's willingness to make it publicly available.",
+  "files":{
+    "Falster2005-SuppInfo":{
+      "path": "data/appendix1-species_means.csv",
+      "description": "Appendix 1 from published paper, containing mean values for each of the trait measured. This data is available here http://dx.doi.org/10.1111/j.0030-1299.2005.13383.x in pdf format, but has been reproduced here in a more useful format.",
+      "metadata": "data/appendix1-species_means-metadata.csv",
+      "contact": "Daniel Falster"
+    },
+    "site_list":{
+      "path": "data/site_list.csv",
+      "description": "Details on the site used",
+      "metadata": "data/site_list-metadata.csv",
+      "contact": "Daniel Falster"
+    },
+    "survey":{
+      "path": "data/survey_data.csv.csv",
+      "description": "Survey of largest individuals for each species in each patch, given height, diameter, and presence of reproductive material. This data was used to fit height growth trajectories and to estimate reproductive size threshold.",
+      "metadata": "data/survey_data-metadata.csv",
+      "contact": "Daniel Falster"
+    },
+    "leaf":{
+      "path": "data/leaf.csv",
+      "description": "Inidividual-level measuremnts of leaf traits",
+      "metadata": "data/leaf-metadata.csv",
+      "contact": "Daniel Falster"
+    },
+    "wood":{
+      "path": "data/wood.csv",
+      "description": "Inidividual-level measuremnts of wood traits",
+      "metadata": "data/wood-metadata.csv",
+      "contact": "Daniel Falster"
+    },
+    "seed":{
+      "path": "data/seed.csv",
+      "description": "Measuremnts of seed weight used to caluclate seed mass per species",
+      "metadata": "data/seed-metadata.csv",
+      "contact": "Daniel Falster"
+    }
+  },
+  "methods": {
+    "Dates": "Sampling was conducted during 2002-2003.",
+    "Sites": "The study was conducted in low-open sclerophyll forest situated in Myall Lakes National Park in south eastern Australia. Annual precipitation is moderate (1352 mm, 105 year average), with some rain in all months. Mean annual temperature is 178C. The park contains a diversity of vegetation structural types delimited by substrate variation arising from past and present dune formation. We restricted our study to a large section of the park situated on a relatively homogeneous substrate of freely draining Holocene sands. Fire is a recurrent disturbance in the park. Patches of vegetation 1, 2, 4, 8, 10, 12, 15, 27 and 28 years since fire were identified and plants within were sampled to reconstruct species height-growth trajectories over time. Where possible several patches within a given age class were surveyed to determine species presence or absence.",
+    "Species selection": "Nineteen species recorded in a majority of patches were selected for further study. This included eight resprouting species and 11 obligate seeders.",
+    "Species traits": "For each species, we recorded height and diameter at 10% of height for the five tallest individuals found in each patch and age class. The presence of reproductive material on each individual was also noted. Initial surveys were conducted between 20th September and 10th October 2002. The three youngest sites were resampled in March 2003 to give additional intervals of 'time since fire'. Samples were collected for measurement of leaf, stem and architectural traits."
+  }
+}
