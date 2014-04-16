@@ -1,0 +1,7 @@
+variable,type,units,description
+site,string,,site code used in survey datafile
+fire_date,date,,"date of last fire, estimated with the use of NSW national parks GIS fire history records and personal observations of Karen Ross"
+latitude,numeric,decimal degrees,Estimated later using google maps. Approximately correct but not exactly.
+longitude,numeric,decimal degrees,Estimated later using google maps. Approximately correct but not exactly.
+location,numeric,,verbal description on how to find site
+notes,string,,extra notes about the site

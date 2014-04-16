@@ -1,0 +1,14 @@
+variable,type,units,description
+spp,string,,species code
+growth,string,resp=resprout; seed = seedling,recruitment type
+site,string,,site name
+indiv,numeric,,individual number
+flow,string,,evidence of flowering: yes or no
+heigth_cm,numeric,cm,height of plant
+diam_mm,numeric,mm,diameter at 10% of height
+collector,string,,collected by
+collection_date,date,,date of data collection
+notes,string,,notes
+sampled,bool,,was individual cut for trait and biomass estimates?
+date_last_fire,date,,date of last fire at this site
+age_yr,numeric,yr,estimated age = collection date - date of last fire

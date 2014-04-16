@@ -1,0 +1,20 @@
+variable,type,units,description,methods
+species,string,,species name,
+spp,string,,6 letter species code used in data files,
+group,string,,group: reseeder or resprouter,
+family,string,,family,
+hmax,numeric,m,maximum height,"Calculated from asymptotic height-growth relationships of the form H=Hmax*(1-exp(-aTb), where T is time since disturbance (age), fitted to each species using Levenberg-Marquardt estimation in SPSS version 11.0."
+height_age_a,numeric,,parameter of height-age relationship used to calculate Hmax,see methods for hmax
+height_age_b,numeric,,parameter of height-age relationship used to calculate Hmax,see methods for hmax
+height_age_r2,numeric,,r2 of height-age relationship used to calculate Hmax,see methods for hmax
+longevity,numeric,yr,maximum longevity for species taken from literature,
+persistence,numeric,yr,stem persistence,
+RST_h,numeric,m,Reproductive size threshold,"Estimated from survey data as by fitting a size-dependent probability of reproduction P=exp(c+d*ln H)/exp(1+exp(c+d*ln H)), where ln H is the natural logarithm of plant height and c, d are constants. Parameters were estimated for each species using a maximum likelihood approach, including the presence / absence of reproductive material on individuals of height H as a binary dependent. The reproductive size threshold (RST), corresponding to the point at which most individuals initiate reproduction, was then estimated as exp([ln ((d-1)/(d+1))-c]/d"
+RST_c,numeric,,parameter used to calculate RST,see methods for RST
+RST_d,numeric,,parameter used to calculate RST,see methods for RST
+LMA,numeric,mm2 mg-1,leaf mass per area,"calculated on the first five fully expanded leaves (including petioles) at the tip of each individual. Leaf area was calculated as the one sided leaf area (flat bed scanner), and LMA as the leaf dry mass (oven-dried for 48 h at 658C) divided by leaf area"
+Nmass,numeric,%,leaf nitrogen content,"Leaves from all individuals per species were then pooled and finely ground for nitrogen analysis. Total nitrogen concentration (%) was measured using complete combustion gas chromatography by Waite Analytical Services, Adelaide."
+LS,numeric,mm2,leaf size,size of entire all leaflets for species with compound leaves
+STD,numeric,mg mm-3,stem tissue density,"Stem tissue density (dry mass / fresh volume) was calculated using 40 -60 mm stem segments taken 250 mm back along a branch from the tip. Fresh samples were refrigerated before processing. After removing bark material, the volume of each sample was determined using Archimedes‰Ûª principle. Samples were submerged in a water-filled container on a balance. The weight change (mg) recorded during submersion corresponds to the mass of water displaced, which can be converted to a volume using the formula: displacement weight (mg)/0.998 (mg mm-3), where 0.998 mg mm-3 is the density of water at 20degC. Samples were then dried for 4 days at 60degC before weighing."
+D1m,numeric,mm,stem diameter for plant at 1m height,The diameter of a plant at 1m height was estimated for each species by fitting an asymptotic function of form H=Hmax*(1-exp(-aDb) to observed height-diameter trajectories and solving for H=1m.
+SM,numeric,mg,seed mass,"Mean oven dried seed mass was estimated for as many species as possible using field material supplemented with additional data from a global seed mass database, compiled and maintained by Angela Moles"

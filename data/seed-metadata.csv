@@ -1,0 +1,6 @@
+variable,type,units,description,notes
+species,string,,species name,names do not always match those in paper due to taxonomic revisions
+family,string,,family,
+site,string,,site,
+seed mass,numeric,mg,seed dry mass,
+source,string,,source: either field or literature source where relevant,
